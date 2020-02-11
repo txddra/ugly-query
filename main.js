@@ -15,9 +15,10 @@ h3.style.fontSize ='40em'
 
 
 
-const newli = document.querySelector('li');
+const newli = document.querySelector('ul');
 newli.style.color = 'limegreen';
-newli.style.fontSize = '10em'
+newli.style.fontSize = '5em'
+newli.style.transform = 'rotate(90deg)'
 
 
 
